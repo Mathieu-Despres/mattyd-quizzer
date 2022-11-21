@@ -1,0 +1,144 @@
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+
+body {
+    background-color: lightgray;
+}
+/* wrapper div styles */
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;  
+}
+
+#wrapper h1 {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+#wrapper p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;  
+}
+
+p {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#timer {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    padding-right: 70px;
+}
+/* Button Style */
+#start-button, #Submit, li{
+    box-shadow: 2px 3px 0px 0px #1564ad;
+    background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+    background-color:#79bbff;
+    border-radius:5px;
+    border:1px solid #337bc4;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    font-weight:bold;
+    padding:12px 44px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #528ecc;
+    margin: 10px;  
+}
+/* Button Style when Hovered*/
+#start-button:hover{
+    opacity:0.7;
+}
+
+#questions-div {
+    padding-top: 100px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+input {
+    background-color: antiquewhite;
+    font-size: x-large; 
+ }
+
+footer {
+    float:right;
+}
+
+/* Leaderboard button Styles */
+
+#home {
+    background-color:#005521;
+    border-radius:5px;
+    display:inline-block;
+    color:rgb(255, 255, 255);
+    font-size:16px;
+    font-weight:regular;
+    padding:12px 44px;
+    text-decoration:none;
+    margin: 10px;
+}
+
+#home:hover {
+    opacity:0.7;
+    cursor:pointer;
+  }
+
+#clear {
+    background-color:#b10808;
+    border-radius:5px;
+    display:inline-block;
+    color:rgb(255, 255, 255);
+    font-size:16px;
+    font-weight:regular;
+    padding:12px 44px;
+    text-decoration:none;
+    margin: 10px;
+}
+
