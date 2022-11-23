@@ -28,8 +28,8 @@ currentImgIdx++;
        const img = document.getElementById('myImg');
         let currentImgIdx = 1;
         const images = [ 
-            '/assets/images/start-quiz.png',
-            '/assets/images/start-quiz-white.png',
+            './assets/images/start-quiz.png',
+            './assets/images/start-quiz-white.png',
         ]; 
 
 
@@ -139,7 +139,7 @@ function quizOver(){
     //Text reuesting user initials
     var createLabel = document.createElement("label");
     createLabel.setAttribute("id", "createLabel");
-    createLabel.textContent = "Enter your initials to be put on the leaderboard: ";
+    createLabel.textContent = "Enter your name / initials: ";
 
     questionsDiv.appendChild(createLabel);
     //Input element
@@ -162,7 +162,7 @@ function quizOver(){
         var initials = createInput.value;
         //checks for null user input
         if (!initials) {
-            alert("Enter your initials:");
+            alert("You must enter something");
         } else {
             var finalScore = {
                 initials: initials,
@@ -185,25 +185,5 @@ function quizOver(){
     });
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 startBtnEl.addEventListener("click", countdown);
