@@ -10,6 +10,29 @@ var questionIndex = 0;
 var timeLeft = 75;
 var correctAnswers = 0;
 
+//Toggle between Dark and Light Mode
+
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+   if(currentImgIdx >= images.length){
+    currentImgIdx = 0;
+    // If current idx exceeds images array
+    // length, reset it to 0 again
+}
+img.src = images[currentImgIdx];
+currentImgIdx++;
+// Increment current image idx by 1
+}
+
+       const img = document.getElementById('myImg');
+        let currentImgIdx = 1;
+        const images = [ 
+            '/assets/images/start-quiz.png',
+            '/assets/images/start-quiz-white.png',
+        ]; 
+
+
 //Starts timer and the quiz
 function countdown(event){
     event.preventDefault();

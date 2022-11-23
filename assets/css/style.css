@@ -2,60 +2,45 @@
     position: relative;
     width: 100%;
     max-width: 600px;
-  }
-  
-  .container img {
+}
+
+.container img {
     width: 100%;
     height: auto;
-  }
-  
-  .container .btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-  }
-  
-  .container .btn:hover {
-    background-color: black;
-  }
-
-body {
-    background-color: lightgray;
 }
+
 /* wrapper div styles */
 #wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 #wrapper h1 {
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 #wrapper p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-    text-align: center;  
+    font-size: 1rem;
+    text-align: center;
 }
 
 p {
 
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
 
+}
+
+p b {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    padding-right: 70px;
 }
 
 nav {
@@ -70,30 +55,51 @@ a {
 
 #timer {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
     float: right;
     padding-right: 70px;
 }
+
 /* Button Style */
-#start-button, #Submit, li{
+#start-button, #Submit {
     box-shadow: 2px 3px 0px 0px #1564ad;
-    background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
-    background-color:#79bbff;
-    border-radius:5px;
-    border:1px solid #337bc4;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-family:Arial;
-    font-size:17px;
-    font-weight:bold;
-    padding:12px 44px;
-    text-decoration:none;
-    text-shadow:0px 1px 0px #528ecc;
-    margin: 10px;  
+    background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#378de5 5%, #378de5 100%);
+    border-radius: 1px;
+    border: 1px solid #337bc4;
+    display: inline-block;
+    cursor: pointer;
+    color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 22px;
+    text-decoration: none;
+    margin: 16px;
 }
+
 /* Button Style when Hovered*/
-#start-button:hover{
-    opacity:0.7;
+#start-button:hover {
+    opacity: 0.7;
+}
+
+li {
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#378de5 5%, #378de5 100%);
+    display: inline-block;
+    cursor: pointer;
+    color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+    padding: 12px 22px;
+    text-decoration: none;
+    margin: 16px;
+}
+
+li:hover {
+
+    opacity: 0.7;
 }
 
 #questions-div {
@@ -102,43 +108,115 @@ a {
     text-align: center;
 }
 
+button {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
 input {
     background-color: antiquewhite;
-    font-size: x-large; 
- }
+    font-size: x-large;
+}
 
 footer {
-    float:right;
+    float: right;
 }
 
 /* Leaderboard button Styles */
 
 #home {
-    background-color:#005521;
-    border-radius:5px;
-    display:inline-block;
-    color:rgb(255, 255, 255);
-    font-size:16px;
-    font-weight:regular;
-    padding:12px 44px;
-    text-decoration:none;
+    background-color: #005521;
+    border-radius: 5px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: regular;
+    padding: 12px 44px;
+    text-decoration: none;
     margin: 10px;
 }
 
 #home:hover {
-    opacity:0.7;
-    cursor:pointer;
-  }
+    opacity: 0.7;
+    cursor: pointer;
+}
 
 #clear {
-    background-color:#b10808;
-    border-radius:5px;
-    display:inline-block;
-    color:rgb(255, 255, 255);
-    font-size:16px;
-    font-weight:regular;
-    padding:12px 44px;
-    text-decoration:none;
+    background-color: #b10808;
+    border-radius: 5px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: regular;
+    padding: 12px 44px;
+    text-decoration: none;
     margin: 10px;
 }
 
+#scores-button {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: regular;
+    font-size: 1rem;
+    margin-left: 70px;
+}
+
+#scores-button:hover {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: regular;
+    font-size: 1rem;
+    margin-left: 70px;
+    cursor: "initial";
+}
+
+.dark-mode #scores-button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: regular;
+    font-size: 1rem;
+    margin-left: 70px;
+}
+
+.dark-mode #scores-button:hover {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: regular;
+    font-size: 1rem;
+    margin-left: 70px;
+}
+
+body {
+    padding: 25px;
+    background-color: lightgray;
+    color: black;
+    font-size: 25px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: lightgray;
+}
+
+.dark-mode #timer {
+    color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    padding-right: 70px;
+}
+
+.dark-mode a:link a:visited a:hover a:active p {
+
+    color: lightgray;
+
+}
+
+.dark-mode nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    color: lightgray;
+}
+
+.dark-mode a {
+    text-decoration: none;
+    color: lightgray;
+}
