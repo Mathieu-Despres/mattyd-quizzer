@@ -10,7 +10,7 @@ var questionIndex = 0;
 var timeLeft = 75;
 var correctAnswers = 0;
 
-//Toggle between black and white
+//Toggle between Dark and Light Mode
 
 function myFunction() {
    var element = document.body;
