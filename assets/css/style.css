@@ -9,7 +9,8 @@
     height: auto;
 }
 
-/* wrapper div styles */
+/* Wrapper div styles */
+
 #wrapper {
     display: flex;
     flex-direction: column;
@@ -30,17 +31,13 @@
 }
 
 p {
-
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
-
 }
 
 p b {
-
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
-    padding-right: 70px;
 }
 
 nav {
@@ -61,10 +58,9 @@ a {
 }
 
 /* Button Style */
+
 #start-button, #Submit {
-    box-shadow: 2px 3px 0px 0px #1564ad;
-    background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#378de5 5%, #378de5 100%);
+    background-image: linear-gradient(#378de5 5%, #378de5 100%);
     border-radius: 1px;
     border: 1px solid #337bc4;
     display: inline-block;
@@ -73,19 +69,24 @@ a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: bold;
+    letter-spacing: 1px;
     padding: 6px 22px;
     text-decoration: none;
-    margin: 16px;
+    margin-bottom: 50px;
+}
+
+#myImg {
+    margin-bottom: 50px;
 }
 
 /* Button Style when Hovered*/
+
 #start-button:hover {
     opacity: 0.7;
 }
 
 li {
-    background-color: red; /* For browsers that do not support gradients */
-    background-image: linear-gradient(#378de5 5%, #378de5 100%);
+    background-image: linear-gradient(#525d68 5%, #525d68 100%);
     display: inline-block;
     cursor: pointer;
     color: lightgray;
@@ -98,7 +99,6 @@ li {
 }
 
 li:hover {
-
     opacity: 0.7;
 }
 
@@ -108,18 +108,39 @@ li:hover {
     text-align: center;
 }
 
-button {
-    margin-left: 70px;
-    margin-top: 20px;
+input {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    margin-left: 5px;
+    margin-right: 20px;
+
 }
 
-input {
-    background-color: antiquewhite;
-    font-size: x-large;
+#createH1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#createLabel {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.4mm;
 }
 
 footer {
     float: right;
+}
+
+/* "Dark Mode" Button */
+
+#toggle-button {
+    margin-left: 70px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#toggle-button:hover {
+    font-weight: bold;
 }
 
 /* Leaderboard button Styles */
@@ -153,8 +174,12 @@ footer {
     margin: 10px;
 }
 
-#scores-button {
+#clear:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
 
+#scores-button {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: regular;
     font-size: 1rem;
@@ -205,9 +230,7 @@ body {
 }
 
 .dark-mode a:link a:visited a:hover a:active p {
-
     color: lightgray;
-
 }
 
 .dark-mode nav {
