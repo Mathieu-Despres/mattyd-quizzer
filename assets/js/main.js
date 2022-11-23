@@ -186,24 +186,4 @@ function quizOver(){
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 startBtnEl.addEventListener("click", countdown);
