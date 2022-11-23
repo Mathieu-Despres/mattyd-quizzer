@@ -61,7 +61,7 @@
 <br>
 
 <div align="center">
-  <a href="https://mathieu-despres.github.io/mattyd-quizzer/">
+  <a href="https://mathieu-despres.github.io/mattyd-password-generator/">
     <img src="./assets/images/04-web-apis-homework-demo.gif" alt="Logo" width="50%">
   </a>
   </div><br>
