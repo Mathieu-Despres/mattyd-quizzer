@@ -28,8 +28,8 @@ currentImgIdx++;
        const img = document.getElementById('myImg');
         let currentImgIdx = 1;
         const images = [ 
-            '/assets/images/start-quiz.png',
-            '/assets/images/start-quiz-white.png',
+            'assets/images/start-quiz.png',
+            'assets/images/start-quiz-white.png',
         ]; 
 
 
