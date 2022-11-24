@@ -149,7 +149,7 @@ Distributed under the MIT License. See "LICENSE.txt" for more information.
 ## Acknowledgments
 
 [&#10004;]&nbsp;The [Best-README-Template](https://github.com/othneildrew/Best-README-Template) used as a starter template for this [README file](https://github.com/Mathieu-Despres/courses-challenge-module-1/blob/main/README.md)<br>
-[&#10004;]&nbsp;The [repository](https://github.com/coding-boot-camp/friendly-parakeet) used as the starter code for this challenge<br>
+[&#10004;]&nbsp;The mockup used for the questions in this quiz<br>
 [&#10004;]&nbsp;The [W3Schools](https://www.w3schools.com/) for their freemium educational website for application-related implementation options and examples, along with helpful references<br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
